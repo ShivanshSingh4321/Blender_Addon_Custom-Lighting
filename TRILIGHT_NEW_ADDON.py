@@ -1,3 +1,14 @@
+
+bl_info = {
+     "name" : "Custom Lighting",
+     "author" : "Shivansh",
+     "version" : (1, 0),
+     "blender": (3, 00, 0),
+     "location" : "View3d > Tool",
+     "warning" : "",
+     "category" : "Add Mesh"
+}
+
 import bpy
 from bpy.types import Panel, Operator
 from math import radians
